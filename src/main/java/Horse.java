@@ -14,6 +14,7 @@ public class Horse {
             logger.error("Name is null");
             throw new IllegalArgumentException("Name cannot be null.");
         } else if (name.isBlank()) {
+            //
             logger.error("Name is blank");
             throw new IllegalArgumentException("Name cannot be blank.");
         }
